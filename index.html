@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+<style>
+.btn-group button {
+  display: block;
+  padding: 12px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#3385ff;
+  border: none;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 650px;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; 
+}
+
+
+.btn-group button:hover {
+  background-color: #0066ff;
+}
+h1{
+  font-size: 35px; 
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  color:white
+}
+h2{
+  font-size: 30px; 
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  color:white
+}
+body{
+    background-color: black;
+}
+</style>
+<body>
+
+<h1>ARLINGTON ART GALLERY </h1>
+<h2>Please Click On One Of The Buttons To See The Results</h2><br><br>
+
+<div class="btn-group">
+  <button onclick="location.href='get_customer.php'">Query 1</button>
+  <button onclick="location.href='insert.html'">Query 2</button>
+  <button onclick="location.href='update.html'">Query 3</button>
+  <button onclick="location.href='delete.html'">Query 4</button>
+</div>
+
+</body>
+</html>

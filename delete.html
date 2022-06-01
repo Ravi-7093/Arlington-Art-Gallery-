@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#3385ff;
+  border: none;
+  border-radius: 15px;
+}
+
+input[type=submit]:hover {
+  background-color:  #0066ff;
+}
+
+div {
+  border-radius: 5px;
+  border-color: 5px solid black;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 150px;
+  font-family:Arial, Helvetica, sans-serif
+
+}
+body{
+  background-color:  #3C99DC;
+}
+h1{
+  font-size: 21px; 
+  font-family:Arial, Helvetica, sans-serif;
+}
+</style>
+<body>
+
+<div>
+  <form method ="post" action="delete_state.php" >
+    <h1>Enter The Details Of The State To Be Deleted</h1>
+    <label for="stateName"><b>State Name</b></label><br>
+    <input type="text" placeholder="Enter the State Name" name="stateName" required>
+
+    <input type="submit" ></input>
+  </form>
+</div>
+
+</body>
+</html>
+
+
